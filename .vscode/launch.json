@@ -11,9 +11,11 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\index.js",
+      "program": "${workspaceFolder}/index.js",
       "cwd": "${workspaceRoot}",
-      "args": ["-p ${workspaceFolder}/dev/actifs.csv"],
+      "args": ["-i ${workspaceFolder}/dev/enrichissement.csv",
+        "-o ${workspaceFolder}/dev/enrichissement_phones.csv",
+        "-c ${workspaceFolder}/dev/config.json"],
       "windows" : {
         "args": ["-i ${workspaceFolder}\\dev\\enrichissement.csv",
         "-o ${workspaceFolder}\\dev\\enrichissement_phones.csv",
