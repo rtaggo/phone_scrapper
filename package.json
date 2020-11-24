@@ -1,0 +1,24 @@
+{
+  "name": "phone_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtaggo/phone_scrapper.git"
+  },
+  "author": "RTA@GALIGEO.COM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtaggo/phone_scrapper/issues"
+  },
+  "homepage": "https://github.com/rtaggo/phone_scrapper#readme",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "csvtojson": "^2.0.10",
+    "puppeteer": "^5.5.0"
+  }
+}
