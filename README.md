@@ -33,7 +33,7 @@ Scrapper de numéro de téléphone
   6.14.8
 ```
 
-## Installation du Phone Scrapper
+# Installation du Phone Scrapper
 
 1.  Clone du project
 
@@ -45,3 +45,7 @@ Scrapper de numéro de téléphone
 
         $ npm install
         ...
+
+# Utilisation
+
+        $ node index -c [path_to_config_file] -i [path_to_input_file] -o [path_to_output_file]
