@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": {
-    "execute": "index.js"
-  },
+  "bin": "index.js",
   "scripts": {
     "builds": "pkg --out-path builds/phone_scrapper .",
     "test": "echo \"Error: no test specified\" && exit 1"
