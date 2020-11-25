@@ -35,17 +35,13 @@ Scrapper de numéro de téléphone
 
 ## Installation du Phone Scrapper
 
-1. Clone du project
+1.  Clone du project
 
-```sh
-  $ git clone https://github.com/rtaggo/phone_scrapper.git
-  ...
-  $ cd phone_scrapper
-```
+        $ git clone https://github.com/rtaggo/phone_scrapper.git
+        ...
+        $ cd phone_scrapper
 
-1. Installation des dépendances
+1.  Installation des dépendances
 
-```sh
-  $ npm install
-  ...
-```
+        $ npm install
+        ...
