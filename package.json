@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rtaggo/phone_scrapper#readme",
   "dependencies": {
+    "cli-progress": "^3.8.2",
     "commander": "^6.2.0",
     "csvtojson": "^2.0.10",
     "nightmare": "^3.0.2",
