@@ -51,6 +51,7 @@ const get_configuration_data = async (config_path) => {
       postalcode: 'CP',
       city: 'CITY',
     },
+    headerless_browser: 'electron',
   };
   try {
     let config_content = JSON.parse(fs.readFileSync(config_path));
