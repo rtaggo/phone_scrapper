@@ -46,6 +46,32 @@ Scrapper de numéro de téléphone
         $ npm install
         ...
 
+1.  Création de l'exécutable
+
+    1.  changement des permissions
+
+            $ chmod +x index.js
+
+    1.  Création du lien
+
+            $ sudo npm link
+
+    1.  Test
+
+            $$ phone_scrapper -h
+            PHONE SCRAPPER Version 1.0.0
+            Usage: phone-scrapper [options]
+
+            Scrapping de numéro de téléphone
+
+            Options:
+            -V, --version                 output the version number
+            -c,--config [config_file]     Configuration file (default: "config.json")
+            -i,--inputfile [inputfile]    Input file (default: "input.csv")
+            -o,--outputfile [outputfile]  Output file for phones option (default: "phones.csv")
+            -s,--sample                   Display sample config.json
+            -h, --help                    display help for command
+
 # Utilisation
 
-        $ node index -c [path_to_config_file] -i [path_to_input_file] -o [path_to_output_file]
+        $ phone_scrapper -c [path_to_config_file] -i [path_to_input_file] -o [path_to_output_file]
