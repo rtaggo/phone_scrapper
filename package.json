@@ -21,7 +21,8 @@
   "dependencies": {
     "commander": "^6.2.0",
     "csvtojson": "^2.0.10",
-    "nightmare": "^3.0.2"
+    "nightmare": "^3.0.2",
+    "puppeteer": "^5.5.0"
   },
   "devDependencies": {
     "pkg": "^4.4.9"
