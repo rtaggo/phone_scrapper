@@ -17,6 +17,28 @@ program
   .option('-s,--sample', 'Display sample config.json')
   .parse(process.argv);
 
+const display_sample_config = () => {
+  console.log(`Contenu d'un fichier config.json:  
+  {
+    fields: {
+      siret: 'SIRET',
+      rs: 'RS',
+      enseigne: 'ENSEIGNE',
+      address: 'ADRESSE',
+      postalcode: 'CP',
+      city: 'CITY',
+    }
+  }
+  
+  La propriété "fields" indique dans quelle colonne du fichier CSV retrouver:
+      - le code siret, 
+      - la raison social (RS) , 
+      - l'enseigne, 
+      - l'adresse, 
+      - le code postal 
+      - la ville.`);
+};
+
 const check_configuration = async (config_path, input_path) => {
   let config_is_ok = true;
   let input_is_ok = true;
@@ -63,6 +85,10 @@ const get_configuration_data = async (config_path) => {
 };
 
 const main = async () => {
+  if (program.sample) {
+    display_sample_config();
+    return;
+  }
   try {
     let { config, inputfile, outputfile } = program;
     console.log(`Running Phone scrapper with:
