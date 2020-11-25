@@ -58,19 +58,19 @@ Scrapper de numéro de téléphone
 
     1.  Test
 
-            $$ phone_scrapper -h
+            $ phone_scrapper -h
             PHONE SCRAPPER Version 1.0.0
             Usage: phone-scrapper [options]
 
             Scrapping de numéro de téléphone
 
             Options:
-            -V, --version                 output the version number
-            -c,--config [config_file]     Configuration file (default: "config.json")
-            -i,--inputfile [inputfile]    Input file (default: "input.csv")
-            -o,--outputfile [outputfile]  Output file for phones option (default: "phones.csv")
-            -s,--sample                   Display sample config.json
-            -h, --help                    display help for command
+              -V, --version                 output the version number
+              -c,--config [config_file]     Configuration file (default: "config.json")
+              -i,--inputfile [inputfile]    Input file (default: "input.csv")
+              -o,--outputfile [outputfile]  Output file for phones option (default: "phones.csv")
+              -s,--sample                   Display sample config.json
+              -h, --help                    display help for command
 
 # Utilisation
 
