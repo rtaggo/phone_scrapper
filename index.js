@@ -108,8 +108,10 @@ const main = async () => {
     const configuration = await get_configuration_data(config);
     console.log(configuration);
     const { scrap_phones } = require('./lib/phones_scrapper');
+    console.time('phones');
     const res = await scrap_phones(configuration, inputfile, outputfile);
     console.log(`Phones Scrapping done. ok? ${res}`);
+    console.timeEnd('phones');
   } catch (err) {
     console.error(err);
   }
