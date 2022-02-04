@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "siret" : "SIRET",
+    "rs": "RS",
+    "enseigne" : "ENSEIGNE",
+    "address": "ADRESSE",
+    "postalcode" : "CP",
+    "city" : "VILLE", 
+    "phone": "TEL"
+  }
+}
