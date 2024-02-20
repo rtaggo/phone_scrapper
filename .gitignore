@@ -15,6 +15,7 @@ dev
 # misc
 .DS_Store
 
+.cache
 
 phones.csv
 

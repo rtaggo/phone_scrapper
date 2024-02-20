@@ -8,19 +8,12 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/index.js",
       "cwd": "${workspaceRoot}",
-      "args": ["-i ${workspaceFolder}/dev/enrichissement.csv",
-        "-o ${workspaceFolder}/dev/enrichissement_phones.csv",
-        "-c ${workspaceFolder}/dev/config.json"],
-      "windows" : {
-        "args": ["-i ${workspaceFolder}\\dev\\enrichissement.csv",
-        "-o ${workspaceFolder}\\dev\\enrichissement_phones.csv",
-        "-c ${workspaceFolder}\\dev\\config.json"
-        ]
+      "args": ["-i ${workspaceFolder}/tg/test.csv", "-o ${workspaceFolder}/tg/test.csv", "-c ${workspaceFolder}/tg/config.json"],
+      "windows": {
+        "args": ["-i ${workspaceFolder}\\tg\\test.csv", "-o ${workspaceFolder}\\tg\\test_phones.csv", "-c ${workspaceFolder}\\tg\\config.json"]
       }
     }
   ]
